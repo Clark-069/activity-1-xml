@@ -1,77 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        body {
-            background-color: #d1c5a3;
-        }
-        table {
-            border: 1px solid black;
-            width: 100%;
-            overflow-y: auto;
-        }
-        td, th {
-            border: 1px solid black;
-            text-align: left;
-            padding: 8px;
-        }
-        th {
-            background-color: #b0af9b;
-        }
-        tr:hover {
-            background-color: #b3ae6b;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Table</title>
 </head>
 <body>
-    <script>
-        function loadXMLDoc() {
-            let xmlhttp = new XMLHttpRequest();
-            xmlhttp.onreadystatechange = function() {
-                if (this.readyState == 4 && this.status == 200) {
-                    studDetails(this);
-                }
-            };
-            xmlhttp.open("GET", "students.xml", true);
-            xmlhttp.send();
-        }
-
-        function studDetails(xml) {
-            let i;
-            let xmlDoc = xml.responseXML;
-            let table = `<tr><th>studentid</th><th>lastname</th>
-                            <th>firstname</th><th>age</th>
-                            <th>course</th><th>email</th>
-                        </tr>`;
-            let x = xmlDoc.getElementsByTagName("student");
-
-            for (i = 0; i < x.length; i++) {
-                table += "<tr><td>" +
-                    x[i].getElementsByTagName("studentid")[0]
-                        .childNodes[0].nodeValue + "</td><td>" +
-                    x[i].getElementsByTagName("lastname")[0]
-                        .childNodes[0].nodeValue + "</td><td>" +
-                    x[i].getElementsByTagName("firstname")[0]
-                        .childNodes[0].nodeValue + "</td><td>" +
-                    x[i].getElementsByTagName("age")[0]
-                        .childNodes[0].nodeValue + "</td><td>" +
-                    x[i].getElementsByTagName("course")[0]
-                        .childNodes[0].nodeValue + "</td><td>" +
-                    x[i].getElementsByTagName("email")[0]
-                        .childNodes[0].nodeValue + "</td></tr>";
-            }
-            document.getElementById("studentTable").innerHTML = table;
-        }
-    </script>
-
-    <button type="button" class="button" onclick="loadXMLDoc()">
-        Get studentDetails
-    </button>
-
-    <br><br>
-    <table id="studentTable"></table>
+    <table>
+        <tr>
+            <th>studentId</th>
+            <th>student lastname</th>
+            <th>student firstname</th>
+            <th>age</th>
+            <th>course</th>
+            <th>email</th>
+        </tr>
+        <tr>
+            <td>22012137410</td>
+            <td>Mojagan</td>
+            <td>Clark Adrian</td>
+            <td>21</td>
+            <td>BSCS</td>
+            <td>adrianmojagan23@gmail.com</td>
+        </tr>
+        <tr>
+            <td>22012137410</td>
+            <td>Mojagan</td>
+            <td>Clark Adrian</td>
+            <td>21</td>
+            <td>BSCS</td>
+            <td>adrianmojagan23@gmail.com</td>
+        </tr>
+        <tr>
+            <td>22012137410</td>
+            <td>Mojagan</td>
+            <td>Clark Adrian</td>
+            <td>21</td>
+            <td>BSCS</td>
+            <td>adrianmojagan23@gmail.com</td>
+        </tr>
+        <tr>
+            <td>22012137410</td>
+            <td>Mojagan</td>
+            <td>Clark Adrian</td>
+            <td>21</td>
+            <td>BSCS</td>
+            <td>adrianmojagan23@gmail.com</td>
+        </tr>
+    </table>
 </body>
 </html>

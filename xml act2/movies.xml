@@ -1,0 +1,67 @@
+
+<movies>
+    <movie>
+    <poster>https://image.tmdb.org/t/p/w1280/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg</poster>
+    <title>The Avengers</title>
+    <year>2012</year>
+    <genre>Action, Adventure, Superhero, Fantasy, Comedy, Drama, Science Fiction</genre>
+    <director>Joss Whedon</director>
+    <summary>When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!</summary>
+    </movie>
+     <movie>
+    <poster>https://image.tmdb.org/t/p/w1280/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg</poster>
+    <title>Avengers Infinity War</title>
+    <year>2018</year>
+    <genre>Action, Adventure, Superhero, Fantasy, Comedy, Drama, Science Fiction</genre>
+    <director>Joe Russo</director>
+    <summary>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</summary>
+    </movie>
+      <movie>
+    <poster>https://image.tmdb.org/t/p/w1280/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg</poster>
+    <title>Avengers: Endgame</title>
+    <year>2019</year>
+    <genre>Action, Adventure, Superhero, Fantasy, Comedy, Drama, Science Fiction</genre>
+    <director>Anthony Russo</director>
+    <summary>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</summary>
+    </movie>
+    <movie>
+     <poster>https://image.tmdb.org/t/p/w1280/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg</poster>
+    <title>Avengers: Age of Ultron</title>
+    <year>2015</year>
+    <genre>Action, Adventure, Superhero, Fantasy, Comedy, Drama, Science Fiction</genre>
+    <director>Joss Whedon</director>
+    <summary>When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry and Earth’s Mightiest Heroes are put to the ultimate test as the fate of the planet hangs in the balance. As the villainous Ultron emerges, it is up to The Avengers to stop him from enacting his terrible plans, and soon uneasy alliances and unexpected action pave the way for an epic and unique global adventure.</summary>
+    </movie>
+     <movie>
+     <poster>https://image.tmdb.org/t/p/w1280/qJ2tW6WMUDux911r6m7haRef0WH.jpg</poster>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genre>Action, Adventure, Superhero, Fantasy, Comedy, Drama, Science Fiction</genre>
+    <director>Christopher Nolan</director>
+    <summary>Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.</summary>
+    </movie>
+     <movie>
+     <poster>https://image.tmdb.org/t/p/w1280/h4VB6m0RwcicVEZvzftYZyKXs6K.jpg</poster>
+    <title>Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)</title>
+    <year>2020</year>
+    <genre>Action, Adventure, Superhero, Fantasy, Comedy, Drama, Science Fiction, Crime, Crime Film, Thriller, Mystery</genre>
+    <director>Bruce Timm</director>
+    <summary>Harley Quinn joins forces with a singer, an assassin and a police detective to help a young girl who had a hit placed on her after she stole a rare diamond from a crime lord.</summary>
+    </movie>
+    <movie>
+     <poster>https://image.tmdb.org/t/p/w1280/ufl63EFcc5XpByEV2Ecdw6WJZAI.jpg</poster>
+    <title>Aquaman</title>
+    <year>2018</year>
+    <genre>Action, Adventure, Superhero, Fantasy, Comedy, Drama, Science Fiction, Mystery</genre>
+    <director>James Wan</director>
+    <summary>Half-human, half-Atlantean Arthur Curry is taken on the journey of his lifetime to discover if he is worth of being a king.</summary>
+    </movie>
+    <movie>
+     <poster>https://image.tmdb.org/t/p/w1280/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg</poster>
+    <title>Joker</title>
+    <year>2019</year>
+    <genre>Action, Adventure, Superhero, Fantasy, Comedy, Drama, Science Fiction, Mystery</genre>
+    <director>Todd Phillips</director>
+    <summary>During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.</summary>
+    </movie>
+    </movies>
